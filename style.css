@@ -1,0 +1,140 @@
+
+body, html {
+  background-color: #fff;
+  height: 100%;
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+nav {
+  height: 6rem;
+  text-align: left;
+  padding: 1rem 0;
+}
+
+ul.nav.nav-pills {
+    text-align: left;
+    position: fixed;
+}
+
+.nav-pills > li {
+    float: none;
+    display: inline-block;
+}
+
+nav > ul > li > a {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0 2rem;
+  text-decoration: none;
+  color: #000000;
+}
+
+nav > ul > li > a:hover {
+   color:#b51e1e;
+   text-decoration:none;
+   font-weight: bold;
+   cursor:pointer;
+   background-color: #282E34;
+}
+
+.navbar-custom {
+  background-color: #fff;
+}
+
+.bgimg-1 {
+  background-image: url("images/ML1.jpg");
+  min-height: 50rem;
+}
+
+
+.bgimg-1 {
+  position: relative;
+  opacity: 0.8;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content-img {
+  max-height: 90%;
+  max-width: 90%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 5px;
+}
+
+
+figcaption {
+  text-align: center;
+  color: #808080;
+  margin: 1rem 0;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #282E34;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  border-radius: 10px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.paragraph-1 {
+  color:#fff;
+  background-color: #282E34;
+  text-align:center;
+  padding:50px 80px;
+  text-align: justify;
+}
+
+
+.paragraph {
+  color:#282E34;
+  background-color: #fff;
+  text-align:center;
+  padding:50px 80px;
+  text-align: justify;
+}
+
+.no-padding {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.no-padding > h3 {
+  text-align: center;
+}
+
+.section-heading-spacer {
+    width: 200px;
+    border-top: 2px solid #e7e7e7;
+}
+
+.spacer {
+  padding: 1rem 0;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+        background-attachment: scroll;
+    }
+}
